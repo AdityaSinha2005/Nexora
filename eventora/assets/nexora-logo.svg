@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 44" fill="none" width="180" height="44">
+  <defs>
+    <!-- Left Ribbon Gradient -->
+    <linearGradient id="brandLeftRibbon" x1="6" y1="36" x2="16" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="50%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <!-- Diagonal Ribbon Gradient -->
+    <linearGradient id="brandDiagRibbon" x1="14" y1="12" x2="30" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="60%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+
+    <!-- Right Ribbon Gradient -->
+    <linearGradient id="brandRightRibbon" x1="24" y1="32" x2="36" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#BAE6FD"/>
+    </linearGradient>
+
+    <!-- Cosmic Orbit Arc Gradient -->
+    <linearGradient id="brandOrbitGrad" x1="5" y1="32" x2="38" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#14B8A6" stop-opacity="0.8"/>
+      <stop offset="75%" stop-color="#38BDF8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- Wordmark Accent Gradient -->
+    <linearGradient id="brandTextGrad" x1="110" y1="14" x2="175" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ICON SECTION (0 to 42) -->
+  <g transform="translate(0, 2)">
+    <!-- Orbit Swoop -->
+    <path d="M 6 30 C 9 35 20 38 29 33 C 33.5 30.5 36.5 25.5 37 19 C 37.5 15 35 10 32.5 8.5" 
+          stroke="url(#brandOrbitGrad)" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.85"/>
+
+    <!-- Left Ribbon -->
+    <path d="M 10 32 C 9 32 8.3 31 8.7 30 L 15.2 14.5 C 15.8 12.8 17.6 11.5 19.5 11.8 C 21 12 22 13.2 22 14.8 L 22 20 L 13 31.8 C 12.2 32 11 32 10 32 Z" 
+          fill="url(#brandLeftRibbon)"/>
+
+    <!-- Diagonal Fold Ribbon -->
+    <path d="M 19.8 12 C 20.8 12.5 22 13.5 22 15.2 L 22 22 L 30 32 C 29 32.5 27.6 32.2 26.8 31.2 L 17.5 18.8 L 19.8 12 Z" 
+          fill="url(#brandDiagRibbon)"/>
+
+    <!-- Right Ribbon -->
+    <path d="M 27 31.2 L 32.2 15.2 C 32.7 13.5 34.3 12.2 36 12.5 C 37 12.7 37.6 13.7 37.4 14.8 L 32.8 30.8 C 32.3 32 30.8 32.5 29.5 32.5 C 28.5 32.5 27.5 32 27 31.2 Z" 
+          fill="url(#brandRightRibbon)"/>
+
+    <!-- Sparkle Apex Star -->
+    <path d="M 37.5 7.5 C 37.5 9.2 38.3 10 40 10 C 38.3 10 37.5 10.8 37.5 12.5 C 37.5 10.8 36.7 10 35 10 C 36.7 10 37.5 9.2 37.5 7.5 Z" 
+          fill="#FFFFFF"/>
+    <circle cx="37.5" cy="10" r="0.8" fill="#BAE6FD"/>
+  </g>
+
+  <!-- WORDMARK SECTION -->
+  <text x="50" y="28" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.03em" fill="#F8FAFC">NEX<tspan fill="url(#brandTextGrad)">ORA</tspan></text>
+</svg>
